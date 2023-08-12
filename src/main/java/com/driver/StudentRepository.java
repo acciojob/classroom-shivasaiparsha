@@ -57,13 +57,12 @@ public class StudentRepository {
        if(teacherdb.containsKey(name))
            teacherdb.remove(name);
 
-       if(studentteacherPair.containsKey(name))
-           studentteacherPair.remove(name);
+
    }
 
    public void deleteAllteachers()
    {
        teacherdb.clear();
-       studentteacherPair.clear();
+
    }
 }
