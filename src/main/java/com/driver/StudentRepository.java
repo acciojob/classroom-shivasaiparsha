@@ -24,7 +24,7 @@ public class StudentRepository {
    {
        List<String> s =studentteacherPair.getOrDefault(teacher, new ArrayList<>());
         s.add(student);
-        studentteacherPair.put(teacher, s);
+
    }
 
    public Student getSt(String  s)
